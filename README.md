@@ -3,6 +3,9 @@ Problem Set 1
 
 
 problem set 1 
+
+
+
 Solution: 
 
 counter = 0
@@ -14,12 +17,19 @@ for i in s:
 print('Number of vowels:', counter)
 
 
-Problem Set 2
+Problem 2
+
+
 Assume s is a string of lower case characters.
 
 Write a program that prints the number of times the string 'bob' occurs in s. For example, if s = 'azcbobobegghakl', then your program should print
 
+
+
+
 Solution: 
+
+
 
 counter = 0
 for i in range(len(s) - 2):
@@ -29,10 +39,14 @@ for i in range(len(s) - 2):
 print ('Number of times bob occurs is:', counter)
 
 
+
 Problem 3
+
+
 Assume s is a string of lower case characters.
 
 Write a program that prints the longest substring of s in which the letters occur in alphabetical order. For example, if s = 'azcbobobegghakl', then your program should print
+
 
 
 Solution: 
